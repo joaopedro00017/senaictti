@@ -1,0 +1,192 @@
+/* Estilo Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.interface {
+    margin: 0 auto;
+}
+
+/* Estilo do Cabeçario */
+
+header{
+    padding: 40px 4%;
+    background-color: #0047B6;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    
+}
+
+header .logotipo img{
+    width: 200px;
+    height: 60px;
+}
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Menu Mobile */
+
+
+/* Estilo do Iframe */
+
+iframe {
+    height: 1500px;
+    width: 100%;
+    border: 0;
+}
+
+
+
+/* Estilo do Rodapé */
+
+.interface {
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #0047B6;
+    color: white;
+    padding: 20px 0;
+}
+
+.linkskk {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.linkskk div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #dcd9c9;
+    display: block;
+    margin: 5px 0;
+}
+
+.outrasPaginas{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.outrasPaginas img {
+    width: 50px;
+    height: 50px;
+}
+
+.outrasPaginas img:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+.informacoesContato img {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.logoRodape {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 500px white;
+}
+
+.logoRodape img {
+    width: 300px;
+    height: auto;
+}
+
+/* Responsividade */
+ @media (max-width: 768px) {
+    .linkskk {
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+
+ @media (max-width: 958px) {
+    header nav ul li {
+        display: inline-block;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 798px) {
+    header nav ul li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+}
+
+@media (max-width:798px){
+    header > .interface{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+}
+
+@media (max-width: 450px) {
+    header nav ul li {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Senai CTTI</title>
+</head>
+<body>
+    <!-- Cabeçalho do Site -->
+    <header>
+        <div class="interface">
+            <!-- Logo Tipo Senai -->
+            <div class="logotipo">
+                <a href="index.html">
+                    <img src="images/senai-branco.png" alt="Logo Senai">
+                </a>
+            </div>
+            <!-- Navegador de Páginas -->
+            <nav class="navegadorPaginasDesktop">
+                <ul>
+                    <li><a href="#" onclick="abrirPagina('pagina1.html')"><strong>Introdução ao Site</strong></a></li>
+                    <li><a href="#" onclick="abrirPagina('pagina2.html')"><strong>Cursos e Capacitação</strong></a></li>
+                    <li><a href="#" onclick="abrirPagina('pagina3.html')"><strong>Inovação e Pesquisa</strong></a></li>
+                    <li><a href="#" onclick="abrirPagina('pagina4.html')"><strong>Parceria e Projetos</strong></a></li>
+                </ul>
+            </nav>
+
+            
+
+        </div>
+    </header>
+    
+    <!-- Corpo do Site -->
+    <main>
+        <!-- Iframe -->
+        <div class="conteudoPagina">
+            <iframe id="conteudo" src="pagina1.html"></iframe>
+        </div>
+        <script>
+            // Função JavaScript para Já mostrar a introdução do Site quando aberto
+            function abrirPagina(page) {
+                document.getElementById('conteudo').src = page;
+            }
+        </script>
+    </main>
+    
+    <!-- Rodapé do Site -->
+    <footer>
+        <div class="interface">
+            <section class="linkskk">
+                <!-- Informações sobre o Senai -->
+                <div class="sobreoSenai">
+                    <h2>SOBRE O SENAI</h2>
+                    <a href="#">Sobre o Senai</a>
+                    <a href="#">Diretoria</a>
+                    <a href="#">Nossas Unidades</a>
+                    <a href="#">Lei de Diretrizes Orçamentárias</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Imprensa</a>
+                </div>
+                <div class="areasAtuacao">
+                    <!-- Areas de Atuação -->
+                    <h2>ÁREAS DE ATUAÇÃO</h2>
+                    <a href="#">Sobre o Senai</a>
+                    <a href="#">Diretoria</a>
+                    <a href="#">Nossas Unidades</a>
+                    <a href="#">Lei de Diretrizes Orçamentárias</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Imprensa</a>
+                </div>
+                <!-- Redirecionamento para as Redes Sociais do Senai -->
+                <div class="outrasPaginas">
+                    <h2>OUTRAS PÁGINAS</h2>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/senaictti/">
+                        <img src="images/Instragaram.png" class="media-objeto img-responsive img-thumbnail">
+                    </a>
+                </div>
+                <!-- Informações para contato com o Senai Ctti -->
+                <div class="contato">
+                    <div class="informacoesContato">
+                        <!-- Local -->
+                        <img src="images/local.png">
+                        <p>Rua Rio de Janeiro, 471 - Centro,<br> Belo Horizonte - MG, 30160-040</p>
+                        <!-- e-mail -->
+                        <img src="images/email.png">
+                        <p>senaictti@fiemg.com.br</p>
+                        <!-- telefone -->
+                        <img src="images/telefone.png">
+                        <p>(31) 99955-4185</p>
+                    </div>
+                </div>
+            </section>
+            <!-- logo do senai -->
+            <div class="logoRodape">
+                <img src="images/senai-branco.png" alt="Logo Senai">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

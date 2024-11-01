@@ -1,0 +1,76 @@
+/* Estilo Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Conteudo da Pagina */
+
+/* Configurações de Texto para Todas as Paginas */
+.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #0047B6;
+    font-size: 42px;
+    line-height: 40px;
+    margin: 50px;
+    text-align: center;
+}
+
+.topo-do-site h1 span {
+    color: #0047B6;
+}
+
+.topo-do-site p span {
+    color: #0047B6;
+}
+
+.topo-do-site p {
+    color: #231f20;
+    margin: 40px 0;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+/* Catologo de cursos(Pagina2) */
+.catalogo img{
+    width: 500px;
+    height: 300px;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.curso-item {
+    display: flex;
+    align-items: center;
+}
+
+.curso-item img {
+    width: 300px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.txt-topo-site h1, .txt-topo-site h2 {
+    margin: 10px 0; 
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
