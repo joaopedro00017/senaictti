@@ -1,0 +1,81 @@
+Introdução
+
+Este documento fornece uma visão geral tecnica do site desenvolvido para o Senai CTTI, com foco em cursos, inovação e parcerias. O site é projetado para ser informativo e responsivo, proporcionando uma experiência de usuario intuitiva.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Estrutura do Site
+
+Arquitetura das Pastas:
+├── index.html
+├── style.css
+├── slide.css
+├── /images
+│   ├── senai-branco.png
+│   ├── monalisa.webp
+│   ├── pinguins.png
+│   ├── sonic.jfif
+│   └── ... (outras imagens)
+├── pagina1.html
+├── pagina2.html
+├── pagina3.html
+└── pagina4.html
+
+Principais Arquivos HTML:
+index.html: Pagina principal que contém o cabeçalho, rodapé e um iframe para navegação entre páginas.
+pagina1.html, pagina2.html, etc.: Páginas individuais que são carregadas dentro do iframe da página principal.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Funcionalidades
+
+Navegação: O site possui um menu de navegação que permite ao usuário acessar diferentes seções de forma dinâmica.
+
+Carrossel de Imagens: Uma seção que exibe imagens de forma interativa, permitindo que os usuários naveguem entre elas.
+
+Integração com Redes Sociais: Botões de compartilhamento que permitem que os usuários compartilhem cursos ou artigos nas redes sociais.
+
+Rodapé Informativo: O rodapé contém informações úteis, como links para redes sociais, contatos e informações sobre o Senai, tornando-o facil de encontrar e acessível.
+
+Seções de Informações: Paginas dedicadas que falam sobre diferentes aspectos, como inovação e parcerias, fornecendo informações relevantes para os usuarios.
+
+Responsividade: O layout se adapta a diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+JavaScript
+
+A interação básica no site é facilitada por JavaScript, especialmente na função que carrega páginas no iframe.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+CSS
+
+Estrutura do CSS
+
+O CSS é responsável pela aparência do site, incluindo cores, fontes e layout.
+
+Fontes: A fonte Raleway é utilizada em todo o site.
+Cores: A paleta de cores principal é composta por azul (#0047B6) e branco (#ffffff).
+
+Principais Estilos
+
+Cabeçalho e Rodapé: Estilizados com fundo azul e texto em branco.
+Texto: Utiliza variações de tamanho e peso para títulos e descrições.
+Imagens: Imagens são responsivas, ajustando-se ao tamanho do contêiner.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Responsividade
+
+A responsividade do site é implementada usando media queries no CSS. Isso permite que o layout se ajuste 
+de acordo com a largura da tela do dispositivo.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Versõe das Ferramentas Utilizadas
+
+HTML v5
+CCS v3
+JavaScript vES6
+Bootstrap v5.3.3
